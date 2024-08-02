@@ -1,0 +1,67 @@
+/* General settings */
+QWidget {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #212121;
+    background-color: #FAFAFA;
+}
+
+/* Menu bar */
+QMenuBar {
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+QMenuBar::item {
+    padding: 5px 10px;
+    background: transparent;
+}
+
+QMenuBar::item:selected {
+    background-color: #EEEEEE;
+}
+
+/* Menu */
+QMenu {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+}
+
+QMenu::item {
+    padding: 5px 20px;
+    background: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #EEEEEE;
+}
+
+/* Buttons */
+QPushButton {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+QPushButton:pressed {
+    background-color: #1565C0;
+}
+
+/* Text inputs */
+QLineEdit {
+    padding: 5px 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+/* Tree view */
+QTreeView {
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+}
